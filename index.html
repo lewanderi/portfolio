@@ -15,6 +15,7 @@
       <h1>Hi.</h1>
       <p>A place to store my projects. WIP.</p>
       <p>⚠️Status: got the core of it set up</p>
+      <p>🥊Next step: make pretty</p>
       <a href="#projects">Explore</a>
     </section>
 
@@ -22,35 +23,33 @@
     <section id="projects">
       <h2>Projects</h2>
 
-    <article class="project-card">
-        <h3>Sana-apuri</h3>
-        <p>First ever deployed project. Helping to solve Sanajuuri word game.</p>
-        <p>⚠️Status: got the logic working + looking nice</p>
-        <p>🥊To focus: some logic inconsistencies + optimize the code</p>
-        <div class="project-links">
-        <a href="https://sanajuuri-apuri.netlify.app" target="_blank">Live</a>
-        <a href="https://github.com/lewanderi/sana-apuri" target="_blank">GitHub</a>
-        </div>
-    </article>
+      <a href="https://sanajuuri-apuri.netlify.app" target="_blank" class="project-card">
+          <h3>Sana-apuri</h3>
+          <p>⚠️Status: got the logic working + looking nic</p>
+          <p>🥊Next step: some logic inconsistencies + optimize the code</p>
+          <div class="project-links">
+            <span class="inner-link" onclick="event.stopPropagation(); window.open('https://github.com/lewanderi/sana-apuri', '_blank')">Github</span>
+          </div>
+      </a>
+ 
+      <a href="https://animal-matcher.netlify.app" target="_blank" class="project-card">
+          <h3>Animal matching</h3>
+          <p>⚠️Get a random animal based on a starting letter of given word (copied straight to your clipboard!)</p>
+          <p>🥊Next step: fix edge cases + make pretty</p>
+          <div class="project-links">
+            <span class="inner-link" onclick="event.stopPropagation(); window.open('https://github.com/lewanderi/animal-matcher', '_blank')">Github</span>
+          </div>
+      </a>
 
-    <article class="project-card">
-        <h3>Animal matching</h3>
-        <p>Get a random animal based on a starting letter of given word (copied straight to your clipboard!)</p>
-        <div class="project-links">
-        <a href="#">Live</a>
-        <a href="#">GitHub</a>
-        </div>
-    </article>
-
-    <article class="project-card">
-        <h3>TBA</h3>
-        <p>🏗️Working on something new...</p>
-        <div class="project-links">
-        <a href="#">Live</a>
-        <a href="#">GitHub</a>
-        </div>
-    </article>
-
+      <a class="project-card">
+          <h3>TBA</h3>
+          <p>🏗️Working on something new...</p>
+          <div class="project-links">
+            <span class="inner-link" onclick="event.stopPropagation(); window.open('', '_blank')"></span>
+          </div>
+      </a>
+    </section>
+    
     <!-- ===== Contact ===== -->
     <section id="contact">
       <h2>Contact</h2>
