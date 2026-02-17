@@ -5,61 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leevi Aroviita | Portfolio</title>
   <meta name="description" content="Portfolio of Leevi Aroviita." />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/main.css" />
 </head>
-<body>
+<body class="home">
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+  <h1 class="bg-heading">hi</h1>
 
-  <!-- ===== Hero ===== -->
-  <main>
-    <section class="hero">
-      <h1>Hi.</h1>
-      <p>A place to store my projects. WIP.</p>
-      <p>⚠️Status: got the core of it set up</p>
-      <p>🥊Next step: make pretty</p>
-      <a href="#projects">Explore</a>
-    </section>
-
-    <!-- ===== Projects ===== -->
-    <section id="projects">
-      <h2>Projects</h2>
-
-      <a href="https://sanajuuri-apuri.netlify.app" target="_blank" class="project-card">
-          <h3>Sana-apuri</h3>
-          <p>⚠️Status: got the logic working + looking nic</p>
-          <p>🥊Next step: some logic inconsistencies + optimize the code</p>
-          <div class="project-links">
-            <span class="inner-link" onclick="event.stopPropagation(); window.open('https://github.com/lewanderi/sana-apuri', '_blank')">Github</span>
-          </div>
-      </a>
- 
-      <a href="https://animal-matcher.netlify.app" target="_blank" class="project-card">
-          <h3>Animal matching</h3>
-          <p>⚠️Get a random animal based on a starting letter of given word (copied straight to your clipboard!)</p>
-          <p>🥊Next step: fix edge cases + make pretty</p>
-          <div class="project-links">
-            <span class="inner-link" onclick="event.stopPropagation(); window.open('https://github.com/lewanderi/animal-matcher', '_blank')">Github</span>
-          </div>
-      </a>
-
-      <a class="project-card">
-          <h3>TBA</h3>
-          <p>🏗️Working on something new...</p>
-          <div class="project-links">
-            <span class="inner-link" onclick="event.stopPropagation(); window.open('', '_blank')"></span>
-          </div>
-      </a>
-    </section>
-    
-    <!-- ===== Contact ===== -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <a href="mailto:leevi.aroviita@gmail.com">leevi.aroviita@gmail.com</a>
-    </section>
+  <main class ="content">
+    <a href="projects.html" class="home-btn">View Projects</a>
   </main>
-
   <footer>
-    <p>© 2026 Leevi Aroviita</p>
+    <p>© 2026 Leevi Aroviita | <a href="mailto:leevi.aroviita@gmail.com">leevi.aroviita@gmail.com</a></p>
   </footer>
-
+  <script src="js/main.js"></script>
 </body>
 </html>
